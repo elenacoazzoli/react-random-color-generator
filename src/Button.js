@@ -1,4 +1,4 @@
 function Button(props) {
-  return <button onClick={props.onClick}>Generate random color</button>;
+  return <button onClick={props.onClick}>{props.text}</button>;
 }
 export default Button;
