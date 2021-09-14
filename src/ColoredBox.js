@@ -6,10 +6,9 @@ function ColoredBox(props) {
           backgroundColor: props.color,
           width: '200px',
           height: '200px',
+          margin: '0 auto',
         }}
-      >
-        {' '}
-      </div>
+      />
     </div>
   );
 }
